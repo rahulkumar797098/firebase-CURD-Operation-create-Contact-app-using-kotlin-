@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "393137939027",
+    "project_id": "fir-curd-operation-9465a",
+    "storage_bucket": "fir-curd-operation-9465a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393137939027:android:136e039133d7c6597b5ca6",
+        "android_client_info": {
+          "package_name": "com.example.firebasecurdoperation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO8XsyQmRWwuhDkHWmTFkmOnGJiapmbyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

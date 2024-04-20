@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeleteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/contact_background"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/backBtnDA"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:src="@drawable/back"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Caller"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/aclonica"
+            android:layout_gravity="center"
+            android:textColor="#5C6BC0"
+            android:paddingLeft="10dp"
+            android:shadowRadius="10"
+            android:shadowColor="#66BB6A"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/contact" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/architects_daughter"
+                android:text="Delete"
+                android:textColor="#66BB6A"
+                android:textStyle="bold"
+                android:textSize="45sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/architects_daughter"
+                android:text="Contact"
+                android:textColor="#5C6BC0"
+                android:textSize="35sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edt_text_background"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/edtDeletePhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableRight="@drawable/searchsvg"
+            android:paddingEnd="15dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/edt_text_background"
+            android:hint="Enter Contact Number"
+            android:textColorHint="#FFA726"
+            android:paddingLeft="10dp"
+            />
+
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btnDeleteDA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Delete"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F83D3A"
+            android:fontFamily="@font/aclonica"
+             />
+
+
+    </LinearLayout>
+
+</LinearLayout>
