@@ -13,19 +13,22 @@
         android:theme="@style/Theme.FirebaseCurdOperation"
         tools:targetApi="31">
         <activity
-            android:name=".DeleteActivity"
+            android:name=".activity.AllContactActivity"
             android:exported="false" />
         <activity
-            android:name=".UpdateActivity"
+            android:name=".activity.DeleteActivity"
             android:exported="false" />
         <activity
-            android:name=".SearchActivity"
+            android:name=".activity.UpdateActivity"
             android:exported="false" />
         <activity
-            android:name=".UploadActivity"
+            android:name=".activity.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

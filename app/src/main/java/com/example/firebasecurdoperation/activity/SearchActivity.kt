@@ -1,4 +1,4 @@
-package com.example.firebasecurdoperation
+package com.example.firebasecurdoperation.activity
 
 import android.content.Intent
 import android.os.Bundle

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
 
 
@@ -104,6 +104,21 @@
                 android:text="delete"/>
 
         </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btnAllContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "All Contact"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#66BB6A"
+            android:layout_margin="16dp"
+            app:strokeColor="#66BB6A"
+            app:strokeWidth="2dp"
+            android:backgroundTint="#fff"
+            android:shadowColor="#66BB6A"
+            android:shadowRadius="8"
+            android:textSize="25sp"/>
 
     </LinearLayout>
 

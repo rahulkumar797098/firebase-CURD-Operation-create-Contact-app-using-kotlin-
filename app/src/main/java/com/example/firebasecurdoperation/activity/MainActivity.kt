@@ -1,11 +1,9 @@
-package com.example.firebasecurdoperation
+package com.example.firebasecurdoperation.activity
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.firebasecurdoperation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -37,7 +35,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.maindelete.setOnClickListener {
-            val intent = Intent(this@MainActivity,DeleteActivity::class.java)
+            val intent = Intent(this@MainActivity, DeleteActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        binding.btnAllContact.setOnClickListener {
+            val intent = Intent(this@MainActivity , AllContactActivity::class.java)
             startActivity(intent)
             finish()
         }

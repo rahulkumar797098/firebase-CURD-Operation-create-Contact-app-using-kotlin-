@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/phone"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+
+        >
+        <TextView
+            android:id="@+id/nameContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Name"
+            android:fontFamily="@font/autour_one"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/numberContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:fontFamily="@font/autour_one"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+
+            >
+
+            <TextView
+                android:id="@+id/operatorContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="operator"
+                android:fontFamily="@font/autour_one"
+                android:singleLine="true"
+                android:paddingEnd="5dp"
+                android:textAlignment="viewEnd"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/locationContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:paddingEnd="5dp"
+                android:singleLine="true"
+                android:textAlignment="viewEnd"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fontFamily="@font/autour_one"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
